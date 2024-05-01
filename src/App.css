@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn_box {
+  max-width: 350px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.month_btn {
+  max-width: 128px;
+  width: 100%;
+  border: 1px solid white;
+  padding: 16px 33px;
+  border-radius: 36px;
+  background-color: black;
   color: white;
+  transition: 300ms linear;
 }
 
-.App-link {
-  color: #61dafb;
+.month_btn:hover {
+  background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.br_30 {
+  border-radius: 30px;
+}
+
+.main {
+  row-gap: 20px;
 }
