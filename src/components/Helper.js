@@ -12,6 +12,7 @@ import labs from "../assets/images/png/labs.png"
 import shoes from "../assets/images/png/shoes.png"
 import mind2 from "../assets/images/png/mind2.png"
 import hubrich from "../assets/images/png/hubrich.png"
+import Shoestask from "../assets/images/png/shoes_task.png"
 
 export const January = [
 
@@ -135,6 +136,14 @@ export const April = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/Hubrich.git",
         netlify: "https://hubrich-beta.vercel.app/"
+
+    },
+    {
+        img1: Shoestask,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/shoes.git",
+        netlify: "https://shoes-inderjeets-projects.vercel.app/"
 
     },
 
