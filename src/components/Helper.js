@@ -13,6 +13,7 @@ import shoes from "../assets/images/png/shoes.png"
 import mind2 from "../assets/images/png/mind2.png"
 import hubrich from "../assets/images/png/hubrich.png"
 import Shoestask from "../assets/images/png/shoes_task.png"
+import email from "../assets/images/png/emailjs.png"
 
 export const January = [
 
@@ -146,5 +147,19 @@ export const April = [
         netlify: "https://shoes-inderjeets-projects.vercel.app/"
 
     },
+
+
+]
+export const May = [
+
+    {
+        img1: email,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/email-js.git",
+        netlify: "https://email-js-six.vercel.app/"
+
+    },
+
 
 ]
