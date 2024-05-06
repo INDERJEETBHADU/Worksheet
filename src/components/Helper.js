@@ -14,7 +14,7 @@ import mind2 from "../assets/images/png/mind2.png"
 import hubrich from "../assets/images/png/hubrich.png"
 import Shoestask from "../assets/images/png/shoes_task.png"
 import email from "../assets/images/png/emailjs.png"
-
+import abacus from "../assets/images/png/abacus_header.png"
 export const January = [
 
     {
@@ -158,6 +158,14 @@ export const May = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/email-js.git",
         netlify: "https://email-js-six.vercel.app/"
+
+    },
+    {
+        img1: abacus,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Abacus.git",
+        netlify: "https://abacus-lemon.vercel.app/"
 
     },
 
