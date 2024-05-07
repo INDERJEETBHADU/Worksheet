@@ -15,6 +15,7 @@ import hubrich from "../assets/images/png/hubrich.png"
 import Shoestask from "../assets/images/png/shoes_task.png"
 import email from "../assets/images/png/emailjs.png"
 import abacus from "../assets/images/png/abacus_header.png"
+import accordion from "../assets/images/png/accordion.png"
 export const January = [
 
     {
@@ -166,6 +167,14 @@ export const May = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/Abacus.git",
         netlify: "https://abacus-lemon.vercel.app/"
+
+    },
+    {
+        img1: accordion,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/accordian-ustate.git",
+        netlify: "https://accordian-ustate.vercel.app/"
 
     },
 
