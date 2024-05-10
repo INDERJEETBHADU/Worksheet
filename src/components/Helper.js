@@ -16,6 +16,7 @@ import Shoestask from "../assets/images/png/shoes_task.png"
 import email from "../assets/images/png/emailjs.png"
 import abacus from "../assets/images/png/abacus_header.png"
 import accordion from "../assets/images/png/accordion.png"
+import soccer from "../assets/images/png/meta-io-scooer.png"
 export const January = [
 
     {
@@ -175,6 +176,14 @@ export const May = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/accordian-ustate.git",
         netlify: "https://accordian-ustate.vercel.app/"
+
+    },
+    {
+        img1: soccer,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Soccer-Fitness.git",
+        netlify: "https://soccer-fitness.vercel.app/"
 
     },
 
