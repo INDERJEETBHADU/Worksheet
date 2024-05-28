@@ -17,6 +17,8 @@ import email from "../assets/images/png/emailjs.png"
 import abacus from "../assets/images/png/abacus_header.png"
 import accordion from "../assets/images/png/accordion.png"
 import soccer from "../assets/images/png/meta-io-scooer.png"
+import atlantic from "../assets/images/png/atlantic.png"
+import blockchain from "../assets/images/png/Blockchain.png"
 export const January = [
 
     {
@@ -184,6 +186,22 @@ export const May = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/Soccer-Fitness.git",
         netlify: "https://soccer-fitness.vercel.app/"
+
+    },
+    {
+        img1: atlantic,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Atlantic.git",
+        netlify: "https://atlantic-sooty.vercel.app/"
+
+    },
+    {
+        img1: blockchain,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Blockchain.git",
+        netlify: "https://blockchain-xi-six.vercel.app/"
 
     },
 
