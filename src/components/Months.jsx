@@ -70,7 +70,7 @@ function Months() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-8 col-12 h-full">
+              <div className="col-lg-8 col-12 h_500 overflow-y-scroll">
                 {January.map((data, index) => (
                   <>
                     {tabs === "tab1" && (
