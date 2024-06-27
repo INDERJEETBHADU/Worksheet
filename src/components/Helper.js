@@ -19,6 +19,7 @@ import accordion from "../assets/images/png/accordion.png"
 import soccer from "../assets/images/png/meta-io-scooer.png"
 import atlantic from "../assets/images/png/atlantic.png"
 import blockchain from "../assets/images/png/Blockchain.png"
+import ice_blast from "../assets/images/png/ice_blast.png"
 export const January = [
 
     {
@@ -204,6 +205,20 @@ export const May = [
         netlify: "https://blockchain-xi-six.vercel.app/"
 
     },
+
+
+]
+export const June = [
+
+    {
+        img1: ice_blast,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Ice-blast.git",
+        netlify: "https://ice-blast-xi.vercel.app/"
+
+    },
+
 
 
 ]

@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { January, Febuary, March, April, May } from "../components/Helper";
+import {
+  January,
+  Febuary,
+  March,
+  April,
+  May,
+  June,
+} from "../components/Helper";
 
 function Months() {
   const [tabs, settabs] = useState("tab1");
@@ -66,6 +73,14 @@ function Months() {
                       onClick={() => handleClick("tab5")}
                     >
                       MAY
+                    </button>
+                    <button
+                      className={`${
+                        tabs === "tab6" ? "bg-[#282F3E]" : ""
+                      } month_btn `}
+                      onClick={() => handleClick("tab6")}
+                    >
+                      June
                     </button>
                   </div>
                 </div>
@@ -210,6 +225,40 @@ function Months() {
                 {May.map((data, index) => (
                   <>
                     {tabs === "tab5" && (
+                      <>
+                        {/* april */}
+                        <div className="row pb-4">
+                          <div className="col-md-4 col-12">
+                            <img
+                              className=" w-100  br_30"
+                              src={data.img1}
+                              alt="digiceny"
+                            />
+                          </div>
+                          <div className="col-md-8 col-12 d-flex justify-content-center  flex-column">
+                            <div className=" d-flex text-white  gap-2">
+                              {" "}
+                              <p className=" text-black ">{data.heading} </p>
+                              <a target="_blank" href={data.gitlink}>
+                                {data.gitlink}
+                              </a>{" "}
+                            </div>
+                            <div className=" d-flex text-white  gap-2">
+                              {" "}
+                              <p className=" text-black ">{data.live} </p>
+                              <a target="_blank" href={data.netlify}>
+                                {data.netlify}
+                              </a>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </>
+                ))}
+                {June.map((data, index) => (
+                  <>
+                    {tabs === "tab6" && (
                       <>
                         {/* april */}
                         <div className="row pb-4">
