@@ -20,6 +20,9 @@ import soccer from "../assets/images/png/meta-io-scooer.png"
 import atlantic from "../assets/images/png/atlantic.png"
 import blockchain from "../assets/images/png/Blockchain.png"
 import ice_blast from "../assets/images/png/ice_blast.png"
+import clair from "../assets/images/png/calir.png"
+import emaillll from "../assets/images/png/emailll.png"
+import react_router from "../assets/images/png/dommmmm.png"
 export const January = [
 
     {
@@ -216,6 +219,30 @@ export const June = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/Ice-blast.git",
         netlify: "https://ice-blast-xi.vercel.app/"
+
+    },
+    {
+        img1: clair,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Clair.git",
+        netlify: "https://clair-z-inderjeets-projects.vercel.app/"
+
+    },
+    {
+        img1: emaillll,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/email-js.git",
+        netlify: "https://email-js-six.vercel.app/"
+
+    },
+    {
+        img1: react_router,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/dom_practise.git",
+        netlify: "https://dom-practise.vercel.app/"
 
     },
 
