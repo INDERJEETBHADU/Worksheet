@@ -22,9 +22,9 @@
   transition: 300ms linear;
 }
 
-.month_btn:hover {
+/* .month_btn:hover {
   background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-}
+} */
 
 .br_30 {
   border-radius: 30px;
@@ -36,4 +36,64 @@
 
 .h_500 {
   height: 500px;
+}
+
+/* Styles for the buttons */
+.month_btn {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.month_btn.active {
+  background-color: #282F3E;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.month_btn:not(.active):hover {
+  background-color: #d3d3d3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.br_30 {
+  border-radius: 30px;
+}
+
+.h_500 {
+  height: 500px;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.pb-4 {
+  padding-bottom: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
