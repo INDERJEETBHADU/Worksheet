@@ -70,7 +70,7 @@ export const January = [
 
 
 ]
-export const Febuary = [
+export const February = [
 
     {
         img1: evergreen,
