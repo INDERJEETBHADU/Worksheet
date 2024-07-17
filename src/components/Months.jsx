@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   January,
-  February,  // Corrected spelling
+  February,
   March,
   April,
   May,
@@ -11,8 +11,8 @@ import {
 function Months() {
   const [tabs, settabs] = useState("tab1");
 
-  const handleChange = (event) => {
-    settabs(event.target.value);
+  const handleButtonClick = (tab) => {
+    settabs(tab);
   };
 
   const renderContent = (data) => {
@@ -73,18 +73,54 @@ function Months() {
               Months
             </h2>
             <div className="btn_box d-flex flex-lg-column flex-wrap justify-content-center justify-content-lg-start gap-4 align-items-center">
-              <select
-                className="month_dropdown form-select form-select-lg mb-3"
-                value={tabs}
-                onChange={handleChange}
+              <button
+                className={`btn ${
+                  tabs === "tab1" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab1")}
               >
-                <option value="tab1">JANUARY</option>
-                <option value="tab2">FEBRUARY</option>
-                <option value="tab3">MARCH</option>
-                <option value="tab4">APRIL</option>
-                <option value="tab5">MAY</option>
-                <option value="tab6">JUNE</option>
-              </select>
+                JANUARY
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab2" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab2")}
+              >
+                FEBRUARY
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab3" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab3")}
+              >
+                MARCH
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab4" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab4")}
+              >
+                APRIL
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab5" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab5")}
+              >
+                MAY
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab6" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab6")}
+              >
+                JUNE
+              </button>
             </div>
           </div>
         </div>
