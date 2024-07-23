@@ -23,6 +23,10 @@ import ice_blast from "../assets/images/png/ice_blast.png"
 import clair from "../assets/images/png/calir.png"
 import emaillll from "../assets/images/png/emailll.png"
 import react_router from "../assets/images/png/dommmmm.png"
+import glided from "../assets/images/png/glided_games.png"
+import email_template from "../assets/images/png/email_2.png"
+import email_temp_2 from "../assets/images/png/email_temp_22.png"
+import clean_girl from "../assets/images/png/clean_girl.png"
 export const January = [
 
     {
@@ -243,6 +247,44 @@ export const June = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/dom_practise.git",
         netlify: "https://dom-practise.vercel.app/"
+
+    },
+
+
+
+]
+export const July = [
+
+    {
+        img1: glided,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Glided-games.git",
+        netlify: "https://glided-games.vercel.app/"
+
+    },
+    {
+        img1: email_template,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/email_1.git",
+        netlify: "https://email-1-inderjeets-projects.vercel.app/"
+
+    },
+    {
+        img1: email_temp_2,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/email_temlate.git",
+        netlify: "https://email-temlate.vercel.app/"
+
+    },
+    {
+        img1: clean_girl,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/Clean-girl.git",
+        netlify: "https://clean-girl-seven.vercel.app/"
 
     },
 

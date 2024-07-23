@@ -6,6 +6,7 @@ import {
   April,
   May,
   June,
+  July
 } from "../components/Helper";
 
 function Months() {
@@ -53,6 +54,8 @@ function Months() {
         return renderContent(May);
       case "tab6":
         return renderContent(June);
+      case "tab7":
+        return renderContent(July);
       default:
         return null;
     }
@@ -120,6 +123,14 @@ function Months() {
                 onClick={() => handleButtonClick("tab6")}
               >
                 JUNE
+              </button>
+              <button
+                className={`btn ${
+                  tabs === "tab7" ? "btn-primary" : "btn-secondary"
+                } custom-button`}
+                onClick={() => handleButtonClick("tab7")}
+              >
+                JULY
               </button>
             </div>
           </div>
