@@ -27,6 +27,7 @@ import glided from "../assets/images/png/glided_games.png"
 import email_template from "../assets/images/png/email_2.png"
 import email_temp_2 from "../assets/images/png/email_temp_22.png"
 import clean_girl from "../assets/images/png/clean_girl.png"
+import hooks from "../assets/images/png/useparam.png"
 export const January = [
 
     {
@@ -285,6 +286,14 @@ export const July = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/Clean-girl.git",
         netlify: "https://clean-girl-seven.vercel.app/"
+
+    },
+    {
+        img1: hooks,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/hooks-practise.git",
+        netlify: "https://hooks-practise.vercel.app/"
 
     },
 
