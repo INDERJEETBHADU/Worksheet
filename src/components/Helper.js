@@ -29,6 +29,7 @@ import email_temp_2 from "../assets/images/png/email_temp_22.png"
 import clean_girl from "../assets/images/png/clean_girl.png"
 import hooks from "../assets/images/png/useparam.png"
 import bedrocks from "../assets/images/png/bedrocks.png"
+import testing from "../assets/images/png/treatment.png"
 export const January = [
 
     {
@@ -303,6 +304,14 @@ export const July = [
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/bedrock.git",
         netlify: "no-link-due-to-live"
+
+    },
+    {
+        img1: testing,
+        heading: "Github-link :- ",
+        live: "Live-link :-",
+        gitlink: "https://github.com/INDERJEETBHADU/treatment.git",
+        netlify: "https://treatment-ochre.vercel.app/"
 
     },
 
