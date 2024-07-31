@@ -303,7 +303,7 @@ export const July = [
         heading: "Github-link :- ",
         live: "Live-link :-",
         gitlink: "https://github.com/INDERJEETBHADU/bedrock.git",
-        netlify: "no-link-due-to-live"
+        netlify: "https://bed-rocks-react.web.app/"
 
     },
     {
